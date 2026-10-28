@@ -1,0 +1,42 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  background:
+    radial-gradient(ellipse at 50% 35%, #141a26 0%, #0a0c12 55%, #050609 100%);
+  color: #8b95a7;
+  font-family: "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  gap: 12px;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+canvas {
+  display: block;
+  background: #000;
+  border: 1px solid #2a3142;
+  border-radius: 6px;
+  box-shadow:
+    0 0 0 4px #0d1018,
+    0 0 0 5px #1f2533,
+    0 18px 50px rgba(0, 0, 0, 0.7),
+    0 0 80px rgba(60, 110, 200, 0.08);
+  max-width: calc(100vw - 24px);
+  max-height: calc(100vh - 64px);
+}
+.controls {
+  margin: 0;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  color: #9aa3b2;
+  text-align: center;
+  padding: 6px 14px;
+  background: rgba(16, 19, 28, 0.8);
+  border: 1px solid #222937;
+  border-radius: 999px;
+}

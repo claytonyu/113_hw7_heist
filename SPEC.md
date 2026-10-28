@@ -46,7 +46,7 @@ Powerups:
 
 
 ## Acceptance Criteria (in order of priority)
-1. The player moves with WASD, and can (at times) go above and below the main floor with two buttons (ex: Q and E)
+1. The player moves with WASD, and can (at times) go above to the main floor with two buttons (ex: Q and E)
 2. The levels have a main treasure and a set of tasks to complete before getting that treasure.
 3. The security system works accurately and difficulty is tuned well.
   - The player should not trip lasers or 

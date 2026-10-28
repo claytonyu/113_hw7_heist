@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Heist</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <main>
+    <canvas id="game" width="960" height="640"></canvas>
+    <p class="controls">
+      WASD move &middot; F hold to hack &middot; Q climb into vent &middot; E drop out of vent &middot;
+      R restart &middot; [ / ] previous / next level &middot; M mute
+    </p>
+  </main>
+
+  <!-- Order matters: plain scripts sharing the global `Heist` namespace. -->
+  <script src="js/config.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/input.js"></script>
+  <script src="js/level.js"></script>
+  <script src="js/levels/level1.js"></script>
+  <script src="js/levels/level2.js"></script>
+  <script src="js/levels/level3.js"></script>
+  <script src="js/player.js"></script>
+  <script src="js/tasks.js"></script>
+  <script src="js/security.js"></script>
+  <script src="js/vents.js"></script>
+  <script src="js/audio.js"></script>
+  <script src="js/render.js"></script>
+  <script src="js/game.js"></script>
+</body>
+</html>
